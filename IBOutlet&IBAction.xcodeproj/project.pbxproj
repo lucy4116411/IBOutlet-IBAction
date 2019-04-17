@@ -14,6 +14,9 @@
 		CE3A1AA72264D8CD0012F945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3A1AA52264D8CD0012F945 /* LaunchScreen.storyboard */; };
 		CE3A1AB22264D8CD0012F945 /* IBOutlet_IBActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A1AB12264D8CD0012F945 /* IBOutlet_IBActionTests.swift */; };
 		CE3A1ABD2264D8CD0012F945 /* IBOutlet_IBActionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A1ABC2264D8CD0012F945 /* IBOutlet_IBActionUITests.swift */; };
+		CE3A1ACD2265A6920012F945 /* SubImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A1ACC2265A6920012F945 /* SubImageView.swift */; };
+		CE3A1AD122661FC40012F945 /* destinyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3A1AD022661FC40012F945 /* destinyViewController.swift */; };
+		CE3A1AD3226635500012F945 /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE3A1AD2226635500012F945 /* crayon_1-1.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		CE3A1AB82264D8CD0012F945 /* IBOutlet&IBActionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IBOutlet&IBActionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3A1ABC2264D8CD0012F945 /* IBOutlet_IBActionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBOutlet_IBActionUITests.swift; sourceTree = "<group>"; };
 		CE3A1ABE2264D8CD0012F945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3A1ACC2265A6920012F945 /* SubImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubImageView.swift; sourceTree = "<group>"; };
+		CE3A1AD022661FC40012F945 /* destinyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = destinyViewController.swift; sourceTree = "<group>"; };
+		CE3A1AD2226635500012F945 /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "crayon_1-1.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		CE3A1A9B2264D8CB0012F945 /* IBOutlet&IBAction */ = {
 			isa = PBXGroup;
 			children = (
+				CE3A1AD022661FC40012F945 /* destinyViewController.swift */,
+				CE3A1AD2226635500012F945 /* crayon_1-1.ttf */,
 				CE3A1A9C2264D8CB0012F945 /* AppDelegate.swift */,
 				CE3A1A9E2264D8CB0012F945 /* ViewController.swift */,
 				CE3A1AA02264D8CB0012F945 /* Main.storyboard */,
+				CE3A1ACC2265A6920012F945 /* SubImageView.swift */,
 				CE3A1AA32264D8CD0012F945 /* Assets.xcassets */,
 				CE3A1AA52264D8CD0012F945 /* LaunchScreen.storyboard */,
 				CE3A1AA82264D8CD0012F945 /* Info.plist */,
@@ -229,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3A1AD3226635500012F945 /* crayon_1-1.ttf in Resources */,
 				CE3A1AA72264D8CD0012F945 /* LaunchScreen.storyboard in Resources */,
 				CE3A1AA42264D8CD0012F945 /* Assets.xcassets in Resources */,
 				CE3A1AA22264D8CB0012F945 /* Main.storyboard in Resources */,
@@ -256,6 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE3A1ACD2265A6920012F945 /* SubImageView.swift in Sources */,
+				CE3A1AD122661FC40012F945 /* destinyViewController.swift in Sources */,
 				CE3A1A9F2264D8CB0012F945 /* ViewController.swift in Sources */,
 				CE3A1A9D2264D8CB0012F945 /* AppDelegate.swift in Sources */,
 			);
